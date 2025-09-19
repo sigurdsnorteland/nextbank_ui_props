@@ -1,0 +1,40 @@
+{
+	"name": "@sigurdsnorteland/nextbank_ui_props",
+  	"version": "1.0.21",
+	"type": "module",
+	"main": "dist/main.js",
+	"types": "dist/main.d.ts",
+	"files": ["dist"],
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@sigurdsnorteland"
+	},
+	"scripts": {
+		"dev": "vite --port 9000",
+		"build": "tsc --p ./tsconfig.json && vite build && npm pack",
+		"prepublishOnly": "tsc --p ./tsconfig.json && vite build"
+	},
+	"peerDependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.21.0",
+		"@module-federation/vite": "^1.2.4",
+		"@types/node": "^22.13.8",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react": "^4.3.4",
+		"eslint": "^9.21.0",
+		"eslint-plugin-react-hooks": "^5.1.0",
+		"eslint-plugin-react-refresh": "^0.4.19",
+		"glob": "^11.0.1",
+		"globals": "^15.15.0",
+		"typescript": "~5.7.2",
+		"typescript-eslint": "^8.24.1",
+		"vite": "^6.2.0",
+		"vite-plugin-dts": "^4.5.1"
+	},
+	"optionalDependencies": {
+		"@rollup/rollup-linux-x64-gnu": "^4.35.0"
+	}
+}
