@@ -17,9 +17,9 @@
 		"jsx": "react-jsx",
 		"baseUrl": ".",
 		"paths": {
-			"shared": ["../shared/shared.ts"]
+			"shared": ["../shared/shared.ts"],
 		},
-		"types": ["vite/client"]
+		"types": ["vite/client"],
 	},
 	"include": ["lib"],
 	"references": [
