@@ -7,6 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+pnpm-lock.yaml
+package-lock.json
 node_modules
 dist
 dist-ssr
@@ -23,14 +25,6 @@ dist-ssr
 *.sln
 *.sw?
 
-*.tgz
-
-*.package-lock.json
-*.npmrc
-
 # nextbank
+build
 package-lock.json
-.vite*
-
-# Module federation
-._*
