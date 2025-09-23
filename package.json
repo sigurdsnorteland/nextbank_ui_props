@@ -1,10 +1,10 @@
 {
 	"name": "@sigurdsnorteland/nextbank_ui_props",
-  	"version": "1.0.24",
+  	"version": "1.0.25",
 	"type": "module",
 	"main": "build/main.js",
-	"types": "build/main.d.ts",
-	"files": ["build"],
+	"types": "dist/main.d.ts",
+	"files": ["dist"],
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/@sigurdsnorteland"
 	},
