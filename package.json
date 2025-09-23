@@ -1,6 +1,6 @@
 {
 	"name": "@sigurdsnorteland/nextbank_ui_props",
-  	"version": "1.0.25",
+  	"version": "1.0.26",
 	"type": "module",
 	"main": "build/main.js",
 	"types": "dist/main.d.ts",

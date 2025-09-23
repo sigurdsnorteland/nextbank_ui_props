@@ -10,5 +10,6 @@ export interface ShapesProps_v1 {
     /** Adds additional class */
     className?: string;
     /** Nextbank */
-    backgroundColor?: string;
+    color1?: string;
+    color2?: string;
 }
