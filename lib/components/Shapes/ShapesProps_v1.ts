@@ -9,4 +9,6 @@ export interface ShapesProps_v1 {
     bgColor?: ShapesColor;
     /** Adds additional class */
     className?: string;
+    /** Nextbank */
+    backgroundColor?: string;
 }
