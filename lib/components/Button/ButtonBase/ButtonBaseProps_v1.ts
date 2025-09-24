@@ -11,4 +11,5 @@ export type ButtonBaseProps_v1 = {
     iconOnly?: boolean;
     onClick: () => void;
     className?: string;
+    width?: string | number;
 }
