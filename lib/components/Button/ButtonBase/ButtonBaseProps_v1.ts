@@ -11,5 +11,8 @@ export type ButtonBaseProps_v1 = {
     iconOnly?: boolean;
     onClick: () => void;
     className?: string;
+
+    /** nextbank */
     width?: string | number;
+    backgroundColor?: string;
 }
