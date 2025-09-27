@@ -28,3 +28,4 @@ dist-ssr
 # nextbank
 build
 package-lock.json
+.__mf*
