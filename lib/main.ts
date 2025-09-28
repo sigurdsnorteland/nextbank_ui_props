@@ -70,6 +70,9 @@ export type { HeadingProps_v1 } from "./components/Heading/HeadingProps_v1";
 
 export type { IconProps_v1 } from "./components/Icon/IconProps_v1";
 
+export type { LinkIcon_v1 } from "./components/Link/LinkIcon/LinkIcon_v1";
+export type { LinkText_v1 } from "./components/Link/LinkText/LinkText_v1";
+
 export type { ListBulletProps_v1 } from "./components/List/ListBullet/ListBullet/ListBulletProps_v1";
 export type { ListBulletItemProps_v1 } from "./components/List/ListBullet/ListBulletItem/ListBulletItemProps_v1";
 export type { ListCheckProps_v1 } from "./components/List/ListCheck/ListCheck/ListCheckProps_v1";
@@ -110,6 +113,13 @@ export type { TableHeaderCellProps_v1 } from "./components/Table/TableHeaderCell
 export type { TableRowExpandableProps_v1 } from "./components/Table/TableRowExpandable/TableRowExpandableProps_v1";
 
 export type { TagProps_v1 } from "./components/Tag/TagProps_v1";
+
+export type { TextBodyProps_v1 } from "./components/Text/TextBody/TextBodyProps_v1";
+export type { TextEmphasized_v1 } from "./components/Text/TextEmphasized/TextEmphasized_v1";
+export type { TextMicroProps_v1 } from "./components/Text/TextMicro/TextMicroProps_v1";
+export type { TextPreformattedProps_v1 } from "./components/Text//TextPreformatted/TextPreformattedProps_v1";
+export type { TextSmallProps_v1 } from "./components/Text/TextSmall/TextSmallProps_v1";
+export type { TextStrongProps_v1 } from "./components/Text/TextStrong/TextStrongProps_v1";
 
 export type { TextAreaProps_v1 } from "./components/TextArea/TextAreaProps_v1";
 
