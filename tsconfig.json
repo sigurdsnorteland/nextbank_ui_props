@@ -16,10 +16,6 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 		"baseUrl": ".",
-		"paths": {
-			"shared": ["../shared/shared.ts"],
-		},
-		"types": ["vite/client"],
 	},
 	"include": ["lib"],
 	"references": [
