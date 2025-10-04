@@ -70,6 +70,8 @@ export type { HeadingProps_v1 } from "./components/Heading/HeadingProps_v1";
 
 export type { IconProps_v1 } from "./components/Icon/IconProps_v1";
 
+export type { Label_v1 } from "./components/Label/Label_v1";
+
 export type { LinkIcon_v1 } from "./components/Link/LinkIcon/LinkIcon_v1";
 export type { LinkText_v1 } from "./components/Link/LinkText/LinkText_v1";
 
